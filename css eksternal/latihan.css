@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+    margin: 5%;
+    font-size: 18px;
+    color: rgb(94, 80, 80);
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: tan;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+}
+
+table td{
+    justify-content: center;
+    height: 30px;
+    width: 200px;
+}
+
+
+select{
+    color: rgb(94, 80, 80);
+    border-color: rgb(128, 105, 105);
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+input{
+    color: rgb(94, 80, 80);
+    border-color: rgb(128, 105, 105);
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+textarea{
+    border-color: rgb(128, 105, 105);
+    border-width: 3px;
+    border-radius: 20px;
+}

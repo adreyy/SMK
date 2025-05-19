@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Undangan</title>
+        <link rel="stylesheet" href="undangan.css">
+    </head>
+
+    <body>
+        <!-- audio -->
+        <audio autoplay="true">
+            <source src="https://g.top4top.io/m_2454bxgyv1.mp3">
+        </audio>
+
+        <!-- navbar -->
+        <header>
+           <ul class="navul">
+                <center><b><li class="navli"><a href="#home" class="navaa">Home</a></b></li></center>
+                <center><b><li class="navli"><a href="#maps" class="nava">Map</a></b></li></center>
+                <center><b><li class="navli"><a href="#card" class="nava">Card</a></b></li></center>
+            </ul>
+        </header>
+        <!-- end -->
+
+        <!-- laman 1 -->
+        <div class="laman1" id="home">
+            <h1>Birthday Party</h1>
+        </div>
+        <div class="gmbr">
+            <div>
+            <h2>Audrey Fidelya</h2>
+            <center><h3>2006/02/02</h3></center>
+            </div>
+            <img src="https://f.top4top.io/p_2454nq93a1.jpeg">
+        </div>
+        <!-- end -->
+
+        <!-- coutdown -->
+        <div class="countdown">
+            <h1>Countdown Clock</h1>
+        </div>
+        <div class="time">
+            <div>
+                <p id="days">00</p>
+                <span>Days</span>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <span>Hours</span>
+            </div>
+            <div>
+                <p id="minutes">00</p>
+                <span>Minutes</span>
+            </div>
+            <div>
+                <p id="seconds">00</p>
+                <span>Seconds</span>
+            </div>
+            <script>
+                var CountDownDate = new Date("Feb 02, 2024 00:00:00").getTime();
+                var x = setInterval(function(){
+                    var now = new Date().getTime();
+                    var distance = CountDownDate - now;
+
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    document.getElementById("days").innerHTML = days;
+                    document.getElementById("hours").innerHTML = hours;
+                    document.getElementById("minutes").innerHTML = minutes;
+                    document.getElementById("seconds").innerHTML = seconds;
+
+                    if(distance < 0){
+                        clearInterval(x);
+                        document.getElementById("days").innerHTML = "00";
+                        document.getElementById("hours").innerHTML = "00";
+                        document.getElementById("minutes").innerHTML = "00";
+                        document.getElementById("seconds").innerHTML = "00";    
+                    }
+
+                },1000);
+            </script>
+        </div>
+        <!-- end -->
+
+        <!-- maps -->
+        <div class="maps" id="maps">
+            <h1>Location</h1>
+        </div>
+        <div class="peta">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4908944694625!2d106.81073811505144!3d-6.198781195512472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6a1be023183%3A0xb243a18d4d4570ff!2sJl.%20Awaludin%20I%2C%20RT.3%2FRW.17%2C%20Kb.%20Melati%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1663675754511!5m2!1sid!2sid"></iframe>"></iframe>
+        </div>
+        <!-- end -->
+
+        <!-- card -->
+        <div class="all">
+            <div class="vid">
+                <video controls="true" class="vidd">
+                    <source src="https://d.top4top.io/m_2454yvlty1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="card" id="card">
+                <div>
+                    <p>Saya mengharap teman-teman menghadiri pesta ulang tahun saya yang ke 17</p> <br>
+                    <p>Atas kehadiran teman-teman semua saya mengucapkan banyak-banyak terimakasih.</p><br>
+                </div>
+            </div>    
+      </div>
+        <!-- end -->
+
+
+        <!-- footer -->
+            <footer>
+                <div class="fc">
+                    <h3>SMK TELKOM JAKARTA</h3>
+                    <p>Audrey Fidelya</p>
+                    <p>XI TEL 09</p>
+                    <ul class="sos">
+                        <li>
+                            <a href="https://wa.me/6288973031163"><img src="https://g.top4top.io/p_2454vd0gj1.png" class="fi"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/audreyfideliya/"><img src="https://h.top4top.io/p_2454nx6gx1.png" class="fi"></a>
+                        </li>
+                        <li>
+                            <a href="https://open.spotify.com/user/cewaloqifqwxp77youqgqrndb?si=1c0847c2e6fe4fbc"><img src="https://k.top4top.io/p_2456b9xo51.png" class="fi"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fb">
+                    <p>copyright &copy;2022</p>
+                </div>
+            </footer>
+        <!-- end -->
+    </body>
+
+</html>

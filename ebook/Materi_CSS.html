@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bab 6 CSS</title>
+    </head>
+
+    <body>
+        <!-- bab -->
+        <h1>Bab 6 CSS</h1>
+
+        <!-- judul -->
+            <h2>Apa Itu CSS? Pengertian dan Cara Kerjanya</h2>
+        <div>
+            <p>
+                CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, 
+                seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+            </p>
+            
+            <p>
+                CSS dibuat dan dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. 
+                Dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. 
+                Anda hanya perlu menulis markup untuk situs.
+            </p>
+
+            <p>
+                Tags, seperti font, diperkenalkan di HTML versi 3.2, dan ketika itu menyebabkan banyak masalah bagi developer. 
+                Karena website memiliki berbagai font, warna background, dan style, maka untuk menulis kembali (rewrite) kode 
+                memerlukan proses yang sangat panjang dan sulit. Oleh sebab itu, W3C membuat CSS untuk menyelesaikan masalah ini.
+            </p>
+
+            <p>
+                HTML dan CSS memiliki keterikatan yang erat. Karena HTML adalah bahasa markup (fondasi situs) dan 
+                CSS memperbaiki style (untuk semua aspek yang terkait dengan tampilan website), 
+                maka kedua bahasa pemrograman ini harus berjalan beriringan.
+                Tak hanya penting di sisi teknis, CSS juga berpengaruh pada tampilan sebuah website. 
+                Tentunya Anda tidak ingin website terlihat seperti situs yang ‘telanjang’ tanpa modifikasi apa pun, bukan?
+            </p>
+        </div>
+
+            <!-- judul -->
+            <h2>Kelebihan CSS</h2>
+        <div>
+            <p>
+                Anda pasti pernah membuka website, tapi sesaat kemudian gagal loading dan malah menampilkan background putih yang 
+                didominasi teks hitam dan biru. Situasi ini menggambarkan bahwa CSS pada situs tersebut tidak dapat di-load dengan benar 
+                atau situs sama sekali tidak memiliki CSS. Umumnya, situs seperti ini hanya menerapkan HTML.
+                Sebelum menggunakan CSS, semua stylizing harus disertakan ke dalam markup HTML. Itu berati Anda harus mendeskripsikan 
+                semua background, warna font, alignment, dan lain-lain secara terpisah.
+            </p>
+
+            <p>
+                Dengan CSS, Anda dapat mengatur tampilan semua aspek pada file yang berbeda, 
+                lalu menentukan style, kemudian mengintegrasikan file CSS di atas markup HTML. 
+                Alhasil, markup HTML bisa lebih mudah di-maintain.
+            </p>
+
+            <p>
+                Singkatnya, dengan CSS, Anda tidak perlu mendeskripsikan tampilan dari masing-masing elemen secara berulang-ulang. 
+                Anda tidak membuang-buang waktu, kode yang digunakan pun lebih singkat, dan error dapat diminimalisir.
+            </p>
+
+            <p>
+                Karena opsi kustomisasi yang ada hampir tak terbatas, CSS memungkinkan Anda untuk menerapkan berbagai macam style pada satu halaman HTML.
+            </p>
+        </div>
+
+            <!-- judul -->
+            <h2>Cara Kerja CSS</h2>
+       <div>
+            <p>
+                CSS menggunakan bahasa Inggris sederhana berbasis syntax yang dilengkapi dengan sekumpulan rule yang mengaturnya. 
+                Seperti yang telah kami sebutkan sebelumnya, HTML tidak dibuat untuk menerapkan elemen style, hanya markup halaman saja. 
+                HTML dirancang semata-mata untuk mendeskripsikan konten. Sebagai contoh: < p > This is a paragraph. < /p >.
+            </p>
+
+            <p>
+                Satu yang menjadi pertanyaannya sekarang, bagaimana caranya style paragraf? Struktur syntax CSS cukup sederhana. 
+                Struktur ini memiliki selector dan declaration block. Pilih elemen yang diinginkan, kemudian deklarasi (declare) 
+                yang harus Anda lakukan terhadap elemen tersebut. Sangat mudah, kan?
+            </p>
+
+            <p>
+                Ada berbagai rule yang harus diingat. Meskipun demikian, rule struktur cukup simpel dan sederhana.
+            </p>
+
+            <p>
+                Selector mengarah ke elemen HTML yang ingin Anda ubah tampilannya. 
+                Declaration block memuat satu atau lebih banyak deklarasi (declaration) yang dipisahkan dengan tanda titik koma.
+            </p>
+
+            <p>
+                Setiap deklarasi menyertakan nama dan value dari properti CSS, yang dipisahkan dengan tanda koma. 
+                Umumnya deklarasi CSS diakhiri dengan tanda titik koma, sedangkan declaration block dikelilingi oleh tanda kurung kurawal.
+            </p>
+        </div>
+
+            <!-- judul -->
+            <h2>Macam-macam CSS</h2>
+        <div>
+            <p>
+                Saat belajar CSS kamu perlu mengetahui bahwa CSS sendiri dibagi menjadi beberapa macam dengan penggunaan yang berbeda-beda. 
+                Hal ini dimaksudkan agar kamu mencoba mempraktikkan teori yang sudah dipelajari tidak mengalami kekeliruan.
+                Setidaknya ada tiga macam CSS yang sering digunakan oleh web designer. Berikut penjelasannya.
+            </p>
+
+            <li>Inline style sheet</li>
+            <p>
+                Pertama ada inline style sheet. Sederhananya, CSS model ini adalah CSS dengan perintah pemrograman yang letaknya ada pada objek.
+                Misalnya kamu ingin mengubah sebuah tulisan pada laman tertentu di website milikmu, inline style sheet CSS harus 
+                menempel pada elemen tulisan tersebut. Kamu cukup menambahkan tag <span>style</span> saja untuk menerapkan CSS ini. 
+            </p>
+
+            <li>External style sheet</li>
+            <p>
+                Selain inline style sheet ada external style sheet. CSS ini letaknya berbeda dengan laman yang akan diubah. 
+                Cara ini lebih praktis daripada inline style sheet karena bisa menghemat ruang dan bisa digunakan berulang-ulang 
+                untuk laman web yang berbeda.
+            </p>
+            <p>
+                Kamu bisa mengenali CSS tipe ini lewat tag <span> link rel</span>. Tag ini akan menghubungkan halaman coding pada external style sheet CSS yang terpisah.
+            </p>
+
+            <li>Embedded style sheet</li>
+            <p>
+                Terakhir ada embedded style sheet. CSS model ini sama seperti inline style sheet, sama-sama berada pada satu laman coding. 
+                Maka tidak mengherankan jika embedded style sheet terkadang disebut dengan internal style sheet. 
+                Biasanya CSS ini diapit oleh tag <span>head /head</span>dan diawali dengan tag <span>style</span>.
+            </p>
+            <p>
+                Embedded style sheet sering digunakan untuk mengatur laman web dengan tampilan yang unik. 
+                Misalnya dalam satu paragraf tulisan ada kalimat yang berbeda dan hal tersebut terus berulang.
+            </p>
+        </div>
+
+    </body>
+
+    <style>
+        *{
+            margin: 5px;
+            padding: 0;
+        }
+        body{
+            background-color: #87805E;
+            margin: 50px 100px;
+            text-align: justify;
+            font-family: 'elanor free';
+        }
+        h1{
+            background-color: rgb(75, 74, 74);
+            text-align: center;
+            border-radius: 50px;
+            padding: 1px;
+            color: whitesmoke;
+            font: 
+        }
+        h2{
+            background-color: rgb(75, 74, 74);
+            margin-top: 30px;
+            margin-left: 20px;
+            padding: 5px;
+            border-radius: 10px;
+            position: relative;
+            color: whitesmoke;
+        }
+        div{
+            background-color: #B09B71;
+            margin-top: -15px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        p{
+            word-spacing: 1px;
+        }
+        li{
+            margin-top: 20px;
+            margin-bottom: 3px;
+            margin-left: 70px;
+        }
+        span{
+            font-style: italic;
+        }
+    </style>
+</html>

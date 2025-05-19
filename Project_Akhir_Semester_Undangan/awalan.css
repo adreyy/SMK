@@ -1,0 +1,126 @@
+*,
+html{
+    height: fit-content;
+}
+
+body{
+    background-color: wheat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28%;
+    opacity: 0.6;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'PP Neue';
+}
+
+.ul1{
+    height: 10px;
+}
+
+.li1{
+    list-style: none;
+    margin-right: 10%;
+}
+
+.div2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: 'South Australia';
+}
+
+.ul2{
+    background: wheat;
+    border-radius: 100px 10%;
+}
+
+.li2{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.div3{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3{
+    font-family: 'PP Monument';
+}
+
+.div4{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul4{
+    padding-left: 10px;
+    height: 10px;
+}
+
+.li4{
+    list-style-type: none;
+    font-size: 24px;
+
+}
+
+.button{
+  padding: 15px 22px;
+  border-radius: 30px;
+  border: 0px solid #F5CC80;
+}
+
+.button:hover{
+    background-color: rgb(245, 204, 128);
+    opacity: 1;
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.a4{
+    text-decoration: none;
+    color: black;
+}
+
+.divgmbr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulgmbr{
+    height: 100%;
+}
+
+
+.ligmbr{
+    list-style: none;
+    cursor: pointer;
+}
+
+.agmbr{
+    text-decoration: none;
+}
+
+.imggmbr{
+    width: 20%;
+    height: 20%;
+    
+}

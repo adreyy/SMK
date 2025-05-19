@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#929397,rgb(41, 41, 41));
+}
+
+/* navbar */
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navli{
+    list-style: none;
+    margin: 30px;
+    font-size: 19px;
+    font-family: 'Benjola';
+}
+
+.nava,.navaa{
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(44, 43, 43);
+    border-radius: 40px;
+}
+.navaa,.nava:hover{
+    opacity: 0.6;
+    background: whitesmoke;
+    color: rgb(44, 43, 43);
+}
+/* end navbar9 */
+
+/* laman */
+.laman1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Benjola';
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gmbr{
+    background: rgb(191, 191, 191);
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    padding: 20px;
+}
+.gmbr div{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    rotate: 270deg;
+    font-size: 50px;
+    font-family: 'Benjola';
+}
+.gmbr img{
+    margin-right: 10px;
+    width: 50%;
+    height: 50%;
+}
+/* end laman */
+
+/* countdown */
+.countdown{
+    display: flex;
+    margin: 8%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.countdown h1{
+    font-size: 40px;
+    font-family: 'CabinetGrotesk';
+    font-weight: 500;
+}
+
+.time{
+    display: flex;
+    margin: 8%;
+    margin-top: 20px;
+    justify-content: center;
+}
+.time div{
+    flex-basis: 100px;
+    justify-content: center;
+    background: whitesmoke;
+    opacity: 0.6;
+}
+.time div p{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.time div span{
+    display: flex;
+    justify-content: center;
+}
+
+/* end countdown */
+
+/* maps */
+.maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.maps h1{
+    font-size: 80px;
+    font-family: 'South Australia';
+    font-weight: 550;
+}
+
+.peta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.peta iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1950px;
+    height: 300px;
+}
+/* end maps */
+
+/* card */
+.vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.vidd{
+    justify-content: center;
+    margin: 20px;
+    width: 40%;
+    height: 40%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    margin: 50px;
+    border-radius: 50px;
+}
+.card div{
+    margin: 10px;
+    margin-top: 30px;
+}
+.card div p{
+    background: wheat;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/* end card */
+
+/* footer */
+footer{
+    background: rgb(31, 31, 31);
+    padding-top: 30px;
+    color: #aaabad;
+}
+
+.fc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.fc h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.fc p{
+    max-width: 100px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.sos{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.sos li{
+    margin: 0 10px;
+}
+.sos a{
+    text-decoration: none;
+    color: white;
+}
+.sos a:hover{
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+}
+
+.fi{
+    background: white;
+    padding: 5px;
+    border-radius: 20%;
+    width: 20%;
+    height: 20%;
+}
+
+.fb{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.fb p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    opacity: .8;
+}
